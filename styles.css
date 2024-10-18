@@ -80,19 +80,11 @@ background-image:url(images/crash.png);
   background-color: white;
 }
 
-/* For devices with a width less than 768px */
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
     margin: 10px 0;
   }
-
-  .drum {
-    font-size: 1.5rem;
-    padding: 15px;
-    margin: 8px;
-  }
-
   footer {
     font-size: 0.9rem;
     margin-top: 15px;
@@ -103,13 +95,6 @@ background-image:url(images/crash.png);
 @media (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
-  }
-
-  .drum {
-    font-size: 1.2rem;
-    padding: 12px;
-    margin: 5px;
-    border-radius: 50%; 
   }
 
   footer {
